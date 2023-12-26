@@ -150,7 +150,6 @@
 
 .lots {
     display: flex;
-    flex: 1 0;
     flex-direction: column;
     height: 682px; 
     margin: 163px 33px 177px 33px;
