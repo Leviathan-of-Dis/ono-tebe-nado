@@ -38,38 +38,38 @@
     </header>
     <main>
       <section class="cover">
-        <section class="cover-title">
-          <h1 class="cover-span">
-            о
-            <span class="letter_no">но</span>
-          </h1>
-          <h1 class="cover-span text-position_center">
-            <span class="letter_t">т</span>
-            <span class="letter_e">e</span>
-            <span class="letter_b">б</span>
-            <span class="letter_ee">e</span>
-          </h1>
-          <h1 class="cover-span text-position_right">
-            <span class="letter_n">н</span>
-            <span class="letter_a">а</span>
-            <span class="letter_d">д</span>
-            о
-          </h1>
-        </section>
+        <h1 class="cover-title">
+            <span class="text-position_left">
+              <span class="letter_o">о</span>
+              <span class="letter_no">но</span>
+            </span>
+            <span class="text-position_center">
+              <span class="letter_t">т</span>
+              <span class="letter_e">e</span> 
+              <span class="letter_b">б</span> 
+              <span class="letter_ee">e</span>
+            </span>
+            <span class="text-position_right">
+              <span class="letter_n">н</span> 
+              <span class="letter_a">а</span> 
+              <span class="letter_d">д</span>
+              <span class="letter_oo">о</span>
+            </span>
+        </h1>
         <h2 class="subtitle">аукцион вещей, в которые никто не верил</h2>
         <section>
           <button type="button" class="button">сделать ставку</button>
         </section>
       </section>
       <section class="lots">
-        <h3 class="lots-title">лоты</h3>
+        <h2 class="lots-title">лоты</h2>
         <ul class="card-list">
           <li>
             <a href="#0" class="noline">
               <article class="card card-film">
-                <h4 class="card-title">
+                <h3 class="card-title">
                   Фильм режисcёра, который бросил киношколу
-                </h4>
+                </h3>
                 <p class="card-text">
                   Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
                   ставка, если бы вы не знали, что режиссёр — Пол Томас
@@ -81,9 +81,9 @@
           <li>
             <a href="#0" class="noline">
               <article class="card card-book">
-                <h4 class="card-title">
+                <h3 class="card-title">
                   Книга, где описан один скучный день из жизни рекламного агента
-                </h4>
+                </h3>
                 <p class="card-text">
                   Объёмом почти в тысячу страниц. Иногда без знаков препинания и
                   с переходами на древнеанглийский. В ней одновременно
@@ -98,9 +98,9 @@
           <li>
             <a href="#0" class="noline">
               <article class="card card-picture">
-                <h4 class="card-title">
+                <h3 class="card-title">
                   Картина, которую повторит даже 5-летний сын маминой подруги
-                </h4>
+                </h3>
                 <p class="card-text">
                   Ну действительно, там линия, тут кружочек, а здесь и вовсе
                   что-то похожее на инфузорию-туфельку. Никаких полей, лесов,
@@ -111,20 +111,19 @@
             </a>
           </li>
         </ul>
-        <a href="#0" class="lots-more">посмотреть больше</a>
+        <section class="lots-more">
+          <a href="#0" class="noline underline">посмотреть больше</a>
+        </section>
       </section>
       <section class="about">
-        <section class="about-logo">
+        <div class="about-logo">
           <img
             src="./images/logo-white.svg"
             alt="логотип Оно тебе надо"
-            class="about-logo_image"
-          />
-        </section>
-        <section class="about-title">
-          <h3>Об аукционе</h3>
-        </section>
-        <section class="about-text">
+            class="about-logo_image"/>
+        </div>
+        <h2 class="about-title">Об аукционе</h2>
+        <div class="about-text">
           <p>
             Здесь вы не встретите очередное пафосное собрание невероятно
             дорогого антиквариата. Наши лоты вообще не должны были попасть ни на
@@ -140,13 +139,13 @@
             представить современную культуру. Когда в эти вещи не верил никто,
             продолжали верить их создатели. И сейчас эти лоты стали культовыми.
           </p>
-        </section>
+        </div>
       </section>
     </main>
     <footer class="footer">
       <address class="contacts">
-        <a href="tel:+99995555555" class="noline underline">+9 999 555 5555</a
-        ><br />
+        <a href="tel:+99995555555" class="noline underline">+9 999 555 5555</a>
+        <br/>
         <a href="mailto:info@sobaka.ge" class="noline underline"
           >info@sobaka.ge</a
         ><br />
@@ -165,22 +164,21 @@
           </li>
         </ul>
       </nav>
-      <section>
         <ul class="socials">
           <li>
-            <a href="#0" class="socials_YouTube"
-              ><img src="./images/yt.svg" alt="логотип YouTube"
-            /></a>
+            <a href="#0">
+              <img src="./images/yt.svg" alt="логотип YouTube" class="footer_social-link"/>
+            </a>
           </li>
           <li>
-            <a href="#0" class="socials_VK"
-              ><img src="./images/vk.svg" alt="логотип VK"
-            /></a>
+            <a href="#0">
+              <img src="./images/vk.svg" alt="логотип VK" class="footer_social-link"/>
+            </a>
           </li>
           <li>
-            <a href="#0" class="socials_Pinterest"
-              ><img src="./images/pinterest.svg" alt="логотип Pinterest"
-            /></a>
+            <a href="#0">
+              <img src="./images/pinterest.svg" alt="логотип Pinterest" class="footer_social-link"/>
+            </a>
           </li>
         </ul>
       </section>
