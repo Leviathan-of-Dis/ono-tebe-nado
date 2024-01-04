@@ -216,9 +216,9 @@
 }
 
 .lots-more {
-    display: inline;
+    width: max-content;
     font-size: 20px;
-    padding-left: 39px;
+    margin-left: 39px;
     padding-top: 29px;
     text-align: start;
 }
@@ -290,7 +290,7 @@
     justify-content: space-between;
 }
 
-.footer_social-link {
+.footer_social-icon {
     height: 48px;
     width: auto;
 }
